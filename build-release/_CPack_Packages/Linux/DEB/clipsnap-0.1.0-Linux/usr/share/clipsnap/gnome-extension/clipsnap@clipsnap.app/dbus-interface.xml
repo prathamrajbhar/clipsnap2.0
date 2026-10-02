@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+  "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="app.clipsnap.Monitor1">
+    <method name="ClipboardChanged">
+      <arg name="content_type" type="s" direction="in"/>
+      <arg name="data" type="s" direction="in"/>
+    </method>
+    <method name="Ping">
+    </method>
+    <property name="MonitoringActive" type="b" access="read"/>
+  </interface>
+</node>

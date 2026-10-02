@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="../qml/main.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/main.qml</file>
+    <file alias="../qml/HistoryView.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/HistoryView.qml</file>
+    <file alias="../qml/HistoryItemDelegate.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/HistoryItemDelegate.qml</file>
+    <file alias="../qml/FilterBar.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/FilterBar.qml</file>
+    <file alias="../qml/StatusBar.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/StatusBar.qml</file>
+    <file alias="../qml/CropWindow.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/CropWindow.qml</file>
+    <file alias="../qml/CropSelector.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/CropSelector.qml</file>
+    <file alias="../qml/SettingsWindow.qml">/home/pratham/Others/Mini Projects/clipsnap2.0/src/../qml/SettingsWindow.qml</file>
+  </qresource>
+</RCC>
+

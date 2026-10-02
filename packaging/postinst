@@ -1,0 +1,31 @@
+#!/bin/sh
+set -e
+
+# Update icon and desktop databases
+if [ -x /usr/bin/update-desktop-database ]; then
+    /usr/bin/update-desktop-database -q /usr/share/applications || true
+fi
+
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    /usr/bin/gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor || true
+fi
+
+# Enable systemd user service globally for all users
+if [ -d /usr/lib/systemd/user ]; then
+    mkdir -p /usr/lib/systemd/user/graphical-session.target.wants
+    ln -sf /usr/lib/systemd/user/clipsnap.service /usr/lib/systemd/user/graphical-session.target.wants/clipsnap.service || true
+fi
+
+# For active user sessions: configure shortcuts and autostart
+for u in $(who | awk '{print $1}' | sort -u); do
+    uid=$(id -u "$u" 2>/dev/null || true)
+    if [ -n "$uid" ] && [ "$uid" -ge 1000 ]; then
+        # Run setup as user to configure GNOME shortcuts
+        su - "$u" -c "DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$uid/bus /usr/bin/clipsnap --setup" 2>/dev/null || true
+        # Reload and start systemd user service for active session
+        su - "$u" -c "XDG_RUNTIME_DIR=/run/user/$uid systemctl --user daemon-reload" 2>/dev/null || true
+        su - "$u" -c "XDG_RUNTIME_DIR=/run/user/$uid systemctl --user restart clipsnap.service" 2>/dev/null || true
+    fi
+done
+
+exit 0

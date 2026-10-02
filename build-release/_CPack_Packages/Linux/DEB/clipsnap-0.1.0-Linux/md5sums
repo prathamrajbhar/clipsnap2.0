@@ -1,0 +1,8 @@
+e836e9a6537bffb07cfd7e1c9a7fabec  etc/xdg/autostart/clipsnap-autostart.desktop
+d7e65c7b4a72c4dd315dd1e434e9b888  usr/bin/clipsnap
+90ff338a8c92523d5474d0b00016782b  usr/lib/systemd/user/clipsnap.service
+cf812cdd4eed4739d33393e953625127  usr/share/applications/clipsnap.desktop
+2c1e57dec370e7150e8da0bf4e3cf131  usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/dbus-interface.xml
+ba256f861f28e1f7d2e411ebd8915f8b  usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/extension.js
+bf56c2397bcc8b0ae27482c21cf3103f  usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/metadata.json
+27ef774a353516827795845fcc4fbec2  usr/share/icons/hicolor/scalable/apps/clipsnap.svg

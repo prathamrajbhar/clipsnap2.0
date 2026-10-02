@@ -1,0 +1,5 @@
+/usr/local/bin/clipsnap
+/usr/local/share/applications/clipsnap.desktop
+/usr/local/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/dbus-interface.xml
+/usr/local/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/metadata.json
+/usr/local/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/extension.js

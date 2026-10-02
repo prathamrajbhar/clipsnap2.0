@@ -1,0 +1,77 @@
+# ninja log v5
+2	857	1790907101084913170	tests/TestHistory_autogen/timestamp	930878d37a88743
+18	10401	1790907114865106142	src/CMakeFiles/clipsnap.dir/history/HistoryRepository.cpp.o	39137fb61d9f9ef3
+11921	12212	1790907116676131547	tests/TestHistory	375d6c0996fdaaf4
+5	10163	1790907114626102790	src/CMakeFiles/clipsnap.dir/settings/Settings.cpp.o	72f4f87c0d7c0102
+13	10296	1790907114761104683	src/CMakeFiles/clipsnap.dir/history/HistoryItem.cpp.o	598eb995946b6925
+207	2164	1790914129733938005	src/CMakeFiles/clipsnap.dir/ipc/SingleInstance.cpp.o	166a815f8d6dbb74
+2	135	1790914435379683059	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+4	24	0	CMakeFiles/install.util	8e2e4df5589a3ae9
+24	11921	1790907116387127492	tests/CMakeFiles/TestHistory.dir/unit/TestHistory.cpp.o	eede926ff4177b99
+33	9535	1790907114000094010	tests/CMakeFiles/TestHistory.dir/__/src/history/HistoryItem.cpp.o	8d73997f9e8f2058
+2	135	1790914435379683059	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/timestamp	547e7622c7d1d05
+140	2076	1790914437327706930	src/CMakeFiles/clipsnap.dir/main.cpp.o	aae3834c45aacbd4
+377	2924	1790907157242695803	src/CMakeFiles/clipsnap.dir/shortcut/ShortcutInfo.cpp.o	845f223a6a3b6c44
+135	140	1790914435392683218	src/.rcc/qrc_qml.cpp	5be3756a194a119c
+154	1832	1790914158464290014	src/CMakeFiles/clipsnap.dir/screenshot/ImageEditor.cpp.o	f4c1829cc205701
+2	857	1790907101084913170	tests/TestHistory_autogen/mocs_compilation.cpp	930878d37a88743
+154	2468	1790914159100297806	src/CMakeFiles/clipsnap.dir/capability/CapabilityDetector.cpp.o	7c1454ecc5dfcb06
+2	135	1790914435379683059	src/clipsnap_autogen/timestamp	547e7622c7d1d05
+33	10944	1790907115405113716	tests/CMakeFiles/TestHistory.dir/__/src/history/HistoryRepository.cpp.o	2b7cdad035de21db
+141	187	1790914435439683794	src/CMakeFiles/clipsnap.dir/.rcc/qrc_qml.cpp.o	3d5ab081ad765afd
+2	857	1790907101084913170	/home/pratham/Others/Mini Projects/clipsnap2.0/build/tests/TestHistory_autogen/timestamp	930878d37a88743
+135	140	1790914435392683218	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/.rcc/qrc_qml.cpp	5be3756a194a119c
+140	2899	1790914438149717002	src/CMakeFiles/clipsnap.dir/clipsnap_autogen/mocs_compilation.cpp.o	261f5a0d2d1ee27d
+5	1679	1790908549447928653	src/CMakeFiles/clipsnap.dir/clipboard/QtClipboardBackend.cpp.o	a32671d605a4d9a9
+2	135	1790914435379683059	src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+22	9659	1790907114123095735	tests/CMakeFiles/TestHistory.dir/TestHistory_autogen/mocs_compilation.cpp.o	7841dae09f41d4b3
+207	2847	1790914130416946373	src/CMakeFiles/clipsnap.dir/diagnostics/DoctorCommand.cpp.o	db1fc16391633765
+39	9263	1790907113723090126	tests/CMakeFiles/TestHistory.dir/__/src/settings/Settings.cpp.o	da14cd81256b4d89
+376	3537	1790907157853690729	src/CMakeFiles/clipsnap.dir/screenshot/CropRegionSelector.cpp.o	603500ce360d1a90
+0	248	1790914815041335660	build.ninja	fcce76796c941197
+50	1595	1790907431164690048	src/CMakeFiles/clipsnap.dir/ui/HistoryModel.cpp.o	c2c963ffa4b86fe1
+2899	3304	1790914438553721953	src/clipsnap	c9378e0609c12262
+2	857	1790907101084913170	/home/pratham/Others/Mini Projects/clipsnap2.0/build/tests/TestHistory_autogen/mocs_compilation.cpp	930878d37a88743
+141	1504	1790914436756699933	src/CMakeFiles/clipsnap.dir/ui/AppController.cpp.o	672e007a4899b2dd
+5	1714	1790908549482929035	src/CMakeFiles/clipsnap.dir/clipboard/GnomeClipboardBackend.cpp.o	828e337d17d12a19
+207	3394	1790914130964953087	src/CMakeFiles/clipsnap.dir/app/Application.cpp.o	d4526e0738acaebe
+140	2683	1790914437933714356	src/CMakeFiles/clipsnap.dir/screenshot/PortalScreenshotBackend.cpp.o	782b6c12e9fdca8f
+3	37	1790914831398536121	src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	37	1790914831398536121	src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+3	37	1790914831398536121	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	37	1790914831398536121	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+38	42	1790914831404536195	src/.rcc/qrc_qml.cpp	5be3756a194a119c
+38	42	1790914831404536195	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/.rcc/qrc_qml.cpp	5be3756a194a119c
+44	97	1790914831458536856	src/CMakeFiles/clipsnap.dir/.rcc/qrc_qml.cpp.o	3d5ab081ad765afd
+43	1430	1790914832790553180	src/CMakeFiles/clipsnap.dir/diagnostics/DoctorCommand.cpp.o	db1fc16391633765
+43	1943	1790914833303559467	src/CMakeFiles/clipsnap.dir/screenshot/PortalScreenshotBackend.cpp.o	782b6c12e9fdca8f
+43	2177	1790914833537562335	src/CMakeFiles/clipsnap.dir/logging/Logger.cpp.o	79d6b6e992de74cc
+43	2409	1790914833769565178	src/CMakeFiles/clipsnap.dir/main.cpp.o	aae3834c45aacbd4
+42	2446	1790914833806565632	src/CMakeFiles/clipsnap.dir/capability/CapabilityDetector.cpp.o	7c1454ecc5dfcb06
+2446	2797	1790914834155569909	src/clipsnap	94753fbb2ce2037b
+4	47	1790914991845419581	src/clipsnap_autogen/timestamp	547e7622c7d1d05
+4	47	1790914991845419581	src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+4	47	1790914991845419581	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/timestamp	547e7622c7d1d05
+4	47	1790914991845419581	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+47	1619	1790914993418163201	src/CMakeFiles/clipsnap.dir/screenshot/PortalScreenshotBackend.cpp.o	782b6c12e9fdca8f
+1619	1987	1790914993784104401	src/clipsnap	94753fbb2ce2037b
+3	38	1790915103259346773	src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	38	1790915103259346773	src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+3	38	1790915103259346773	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	38	1790915103259346773	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+39	44	1790915103266345987	src/.rcc/qrc_qml.cpp	5be3756a194a119c
+39	44	1790915103266345987	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/.rcc/qrc_qml.cpp	5be3756a194a119c
+44	83	1790915103304341717	src/CMakeFiles/clipsnap.dir/.rcc/qrc_qml.cpp.o	3d5ab081ad765afd
+44	1653	1790915104874165254	src/CMakeFiles/clipsnap.dir/screenshot/PortalScreenshotBackend.cpp.o	782b6c12e9fdca8f
+1653	2024	1790915105243123756	src/clipsnap	94753fbb2ce2037b
+3	36	1790915260736257498	src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	36	1790915260736257498	src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+3	36	1790915260736257498	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/timestamp	547e7622c7d1d05
+3	36	1790915260736257498	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/clipsnap_autogen/mocs_compilation.cpp	547e7622c7d1d05
+37	1353	1790915262052091723	src/CMakeFiles/clipsnap.dir/capability/CapabilityDetector.cpp.o	7c1454ecc5dfcb06
+37	1697	1790915262396048428	src/CMakeFiles/clipsnap.dir/screenshot/PortalScreenshotBackend.cpp.o	782b6c12e9fdca8f
+1697	2062	1790915262759002742	src/clipsnap	94753fbb2ce2037b
+3	11	1790915478087721285	src/.rcc/qrc_qml.cpp	5be3756a194a119c
+3	11	1790915478087721285	/home/pratham/Others/Mini Projects/clipsnap2.0/build/src/.rcc/qrc_qml.cpp	5be3756a194a119c
+11	42	1790915478118729980	src/CMakeFiles/clipsnap.dir/.rcc/qrc_qml.cpp.o	3d5ab081ad765afd
+42	392	1790915478465827315	src/clipsnap	94753fbb2ce2037b

@@ -1,0 +1,22 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Window 2.15
+
+ApplicationWindow {
+    id: root
+    visible: false
+    width: 700
+    height: 500
+    title: "ClipSnap"
+
+    Rectangle {
+        anchors.fill: parent
+        color: "#1e1e2e"
+        Label {
+            anchors.centerIn: parent
+            text: "ClipSnap - Loading..."
+            color: "white"
+            font.pixelSize: 18
+        }
+    }
+}

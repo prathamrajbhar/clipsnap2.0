@@ -1,0 +1,8 @@
+{
+  "name": "ClipSnap Clipboard Monitor",
+  "description": "Forwards clipboard change events to ClipSnap via D-Bus. Requires user consent.",
+  "uuid": "clipsnap@clipsnap.app",
+  "shell-version": ["42"],
+  "version": 1,
+  "url": ""
+}

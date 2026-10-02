@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+# Stop running user services on removal
+for u in $(who | awk '{print $1}' | sort -u); do
+    uid=$(id -u "$u" 2>/dev/null || true)
+    if [ -n "$uid" ] && [ "$uid" -ge 1000 ]; then
+        su - "$u" -c "XDG_RUNTIME_DIR=/run/user/$uid systemctl --user stop clipsnap.service" 2>/dev/null || true
+    fi
+done
+
+rm -f /usr/lib/systemd/user/graphical-session.target.wants/clipsnap.service || true
+
+exit 0

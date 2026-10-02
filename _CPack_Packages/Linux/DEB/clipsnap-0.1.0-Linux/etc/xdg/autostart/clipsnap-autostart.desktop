@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ClipSnap
+Exec=clipsnap
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+Comment=ClipSnap clipboard manager autostart

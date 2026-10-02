@@ -1,0 +1,30 @@
+Start testing: Oct 02 10:01 IST
+----------------------------------------------------------
+1/1 Testing: TestHistory
+1/1 Test: TestHistory
+Command: "/home/pratham/Others/Mini Projects/clipsnap2.0/build/tests/TestHistory"
+Directory: /home/pratham/Others/Mini Projects/clipsnap2.0/build/tests
+"TestHistory" start time: Oct 02 10:01 IST
+Output:
+----------------------------------------------------------
+Warning: Ignoring WAYLAND_DISPLAY on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+********* Start testing of TestHistory *********
+Config: Using QtTest library 6.2.4, Qt 6.2.4 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.3.0), ubuntu 22.04
+PASS   : TestHistory::initTestCase()
+PASS   : TestHistory::testAddAndRetrieveText()
+PASS   : TestHistory::testDeduplication()
+PASS   : TestHistory::testPinning()
+PASS   : TestHistory::testSearch()
+PASS   : TestHistory::testEviction()
+PASS   : TestHistory::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 31ms
+********* Finished testing of TestHistory *********
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"TestHistory" end time: Oct 02 10:01 IST
+"TestHistory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 02 10:01 IST

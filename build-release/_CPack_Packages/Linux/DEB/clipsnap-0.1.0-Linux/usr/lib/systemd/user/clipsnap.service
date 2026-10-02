@@ -1,0 +1,12 @@
+[Unit]
+Description=ClipSnap Area Screenshot & Clipboard Manager
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/clipsnap
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

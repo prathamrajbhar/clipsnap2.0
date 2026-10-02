@@ -1,0 +1,8 @@
+/usr/bin/clipsnap
+/usr/share/applications/clipsnap.desktop
+/usr/share/icons/hicolor/scalable/apps/clipsnap.svg
+/usr/lib/systemd/user/clipsnap.service
+/etc/xdg/autostart/clipsnap-autostart.desktop
+/usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/dbus-interface.xml
+/usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/metadata.json
+/usr/share/clipsnap/gnome-extension/clipsnap@clipsnap.app/extension.js

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ClipSnap
+GenericName=Clipboard Manager & Screenshot Tool
+Comment=Searchable clipboard history and region screenshots
+Exec=clipsnap history
+Icon=clipsnap
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=clipboard;screenshot;history;paste;copy;
+StartupNotify=true
